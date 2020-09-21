@@ -30,7 +30,6 @@ body {
     width: 100%;
     background-color: #000000;
     /*background-image:  url('../images/main.jpg');*/
-    z-index: 1;
 }
 
 body {
@@ -40,8 +39,6 @@ body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
-
-
 
 
 /*
@@ -112,7 +109,6 @@ body {
     width: 100%;
     height: 100%;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0
 }
@@ -129,10 +125,21 @@ body {
     font-weight: 700;
 }
 
+/*
+* Flame loader
+*/
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000 url('../images/loader.gif') no-repeat center center;
+    z-index: 9999;
+}
 
 /*
  * Footer
  */
 .mastfoot {
     color: rgba(255, 255, 255, .5);
+    z-index: 1;
 }

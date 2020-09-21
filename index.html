@@ -5,12 +5,12 @@
     <title>Levis Kimathi</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/scroll-indicator.scss">
+    <link rel="stylesheet" href="css/scroll-indicator.css">
     <script src="https://kit.fontawesome.com/caee4c2c42.js" crossorigin="anonymous"></script>
 </head>
 <body class="text-center">
 <div id="particles-js"></div>
-<div class="cover-container d-flex p-3 mx-auto flex-column">
+<div class="container d-flex mx-auto flex-column">
 
     <header class="masthead mb-auto">
         <div class="inner">
@@ -25,22 +25,28 @@
 
     <main role="main" class="inner cover">
         <div class="row">
-            <div class="col-xs-6 justify-content-center" style="width: 50%">
+            <div class="col justify-content-center" style="width: 50%;">
                 <div class="vertical-center">
                     <h1 class="cover-heading">Levis Kimathi</h1>
                     <p class="lead">Full Stack Software Developer</p>
                     <p class="lead">
-                        <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+                        <a href="#" class="btn btn-lg btn-secondary">Download CV</a>
                     </p>
                 </div>
             </div>
-            <div class="col-xs-6" style="width: 50%;">
-                <img height="600" src="images/main.jpg">
+            <div class="col" style="width: 50%;">
+                <img height="540" src="images/main.jpg" width="388" alt="Error main.jpg is missing in the images folder">
             </div>
         </div>
-        <div>
-            .mouse
-            p Scroll
+        <div class="row justify-content-center">
+
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="justify-content-center">
+                    <span class="text">Scroll down</span>
+                </div>
+
         </div>
     </main>
 
@@ -50,6 +56,7 @@
         </div>
     </footer>
 </div>
+<div id="loader"></div>
 <!-- Scripts -->
 <script  type="text/javascript" src="node_modules/jquery/dist/jquery.min.js" ></script>
 <script src="js/particles.js"></script>
