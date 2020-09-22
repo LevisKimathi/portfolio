@@ -132,10 +132,15 @@ body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #000000 url('../images/loader.gif') no-repeat center center;
+    background-color: #000000;
     z-index: 9999;
 }
-
+video {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 /*
  * Footer
  */
